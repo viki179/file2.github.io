@@ -2,8 +2,91 @@
 <html>
 <body>
 
-<iframe width="420" height="345" src="https://youtu.be/Ig1F51DFtFo">
-</iframe>
+<h3>BIODATA PENDAFTARAN SMA SIDOARJO</h3>
 
+<form>
+  <label for="fname">Nama Depan:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Nama Belakang:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+
+<body>
+  <form id="formKomentar"><br>
+  	<div>
+    <label for="fname">Wajib Isi:</label><br>
+  	 <input type="text" name="email" placeholder="Email" />
+  	</div>
+ 
+  	<div>
+  	 <input type="text" name="password" placeholder="Password" />
+    </div>
+ 
+  	<div>
+  	 <input type="text" name="website" placeholder="Website" />
+    </div>
+ 
+  	<div>
+  <input type="date" id="datemax" name="datemax" max="2000-12-31">
+  	</div><br>
+ 
+  	<div>
+  	  <input type="submit" value="SELESAI"/>
+      <input type="submit" value="RESET"/>
+  	</div>
+  </form>
+</body><br>
+
+<h4>Jenis Kelamin</h4>
+<form>
+  <input type="radio" id="Laki-laki" name="gender" value="Laki-laki">
+  <label for="male">Laki-laki</label><br>
+  <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+  <label for="female">Perempuan</label><br>
+</form> 
+</body><br>
+
+<body>
+<h4>Peminatan Jurusan</h4>
+<p>Peserta didik baru bisa memilih peminatan jurusan yang ingin di ambil:</p>
+<form action="/action_page.php">
+  <input type="checkbox" id="Minat1" name="Minat1" value="IPA">
+  <label for="Minat1"> IPA</label><br>
+  <input type="checkbox" id="Minat2" name="Minat2" value="IPS">
+  <label for="Minat2"> IPS</label><br>
+  <input type="checkbox" id="Minat3" name="Minat3" value="Bahasa">
+  <label for="Minat3"> Bahasa</label><br><br>
+  <input type="submit" value="PILIH">
+</form> 
+</body><br>
+
+<body>
+<h4>Ekstrakulikuler</h4>
+<p>Peserta didik baru bisa memilih ekstrakulikuler yang diminati:</p>
+
+<form action="/action_page.php">
+  <label for="peminatan">Pilih Peminatan:</label>
+  <select id="peminatan" name="peminatan">
+    <option value="Sepakbola">Sepakbola</option>
+    <option value="Basket">Basket</option>
+    <option value="Voli">Voli</option>
+    <option value="Renang">Renang</option>
+    <option value="Baca Tulis Qur'an">Baca Tulis Qur'an</option>
+    <option value="Pramuka">Pramuka</option>
+  </select>
+  <input type="submit">
+</form>
+</body><br>
+
+<body>
+<h4>Warna Seragam</h4>
+<p>Seragam yang dimaksud adalah warna dasi untuk setiap peserta didik baru.</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">Pilih Warna:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <input type="submit" value="PILIH">
+</form>
+<p><b>CATATAN:</b>Klik warna yang di inginkan, lalu Klik PILIH&#128512;&#128514;</p>
 </body>
 </html>
